@@ -189,7 +189,9 @@ button{font:inherit;color:inherit}
 .start{width:100%;max-width:35rem;border-radius:22px;padding:clamp(28px,6.4vw,42px) clamp(20px,6vw,48px);text-align:center;border:1px solid rgba(46,139,87,.16);
   background:var(--grain),linear-gradient(170deg,#FFFFFF 0%,#F4FAF2 66%,#FFF7EC 100%);box-shadow:0 20px 48px rgba(23,61,45,.12),0 2px 6px rgba(23,61,45,.07)}
 .start-text{margin:0;font:italic 600 clamp(23px,5.8vw,28px)/1.25 var(--serif);color:var(--ink);text-wrap:balance}
-.start-phone{margin:14px 0 0;font:700 clamp(27px,7.6vw,34px)/1.15 var(--sans);letter-spacing:.02em;color:var(--leaf-deep);white-space:nowrap;-webkit-user-select:all;user-select:all}
+.start-name{margin:14px 0 0;font:500 clamp(18px,4.8vw,20px)/1.3 var(--sans);color:var(--ink)}
+.start-phone{margin:6px 0 0;font:700 clamp(27px,7.6vw,34px)/1.15 var(--sans);letter-spacing:.02em;color:var(--leaf-deep);white-space:nowrap}
+.start-phone a{color:inherit;text-decoration:none;-webkit-user-select:all;user-select:all}
 .copy{margin:18px 0 0;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border:0;border-radius:999px;background:var(--leaf-deep);color:#fff;
   font:500 16px/1 var(--sans);cursor:pointer;transition:background-color .2s,transform .2s}
 .copy:hover{background:#185836;transform:translateY(-1px)}
@@ -282,7 +284,8 @@ button{font:inherit;color:inherit}
     </article>
     <article class="start" aria-label="Связь со специалистом">
       <p class="start-text">Напиши специалисту, чтобы&nbsp;начать:</p>
-      <p class="start-phone" id="phone">8 (9__) ___-__-__</p>
+      <p class="start-name">Снежанна Аникушина</p>
+      <p class="start-phone"><a id="phone" href="tel:+79168620687">8 (916) 862-06-87</a></p>
       <button class="copy" id="copyPhone" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2.2"/><path d="M5 15V6.5A2.5 2.5 0 0 1 7.5 4H15"/></svg><span>Скопировать номер</span></button>
     </article>
     <button class="replay" id="replay" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>Открыть ещё раз</button>
